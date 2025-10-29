@@ -23,6 +23,7 @@ static async Task Main()
     int sum = 0;
     sum = await SolveMeFirst(a, b, Approach.First);
     sum = await SolveMeFirst(a, b, Approach.Second);
+    sum = await SolveMeFirst(a, b, Approach.Third);
 }
 
 /// <summary>
@@ -35,7 +36,9 @@ static async Task<int> SolveMeFirst(int a, int b, Approach approach)
         case Approach.First:
             return await ApproachOne(a, b);
         case Approach.Second:
-            return await Approachtwo(a, b);
+            return await ApproachTwo(a, b);
+        case Approach.Third:
+            return await ApproachThree(a, b);
         default:
             return await Task.FromResult(0);
     }
@@ -52,7 +55,7 @@ static async Task<int> ApproachOne(int a, int b)
 /// <summary>
 /// Second approach
 /// </summary>
-static async Task<int> Approachtwo(int a, int b)
+static async Task<int> ApproachTwo(int a, int b)
 {
     int response = 0;
     response += a;
@@ -60,8 +63,19 @@ static async Task<int> Approachtwo(int a, int b)
     return await Task.FromResult(response);
 }
 
+/// <summary>
+/// Third approach
+/// </summary>
+static async Task<int> ApproachThree(int a, int b)
+{
+    int response = 0;
+    response = a + b;
+    return await Task.FromResult(response);
+}
+
 enum Approach
 {
     First,
-    Second
+    Second,
+    Third
 }
