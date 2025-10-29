@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Uygulama bilgileri -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Genel bilgiler -->
+    <Company>Furkan Tural</Company>
+    <Authors>Furkan Tural</Authors>
+    <Product>Hack The Rank</Product>
+    <Description>Bu uygulama Hackerrank bünyesinde yer alan meydan okumalarını konsol uygulaması şeklinde çözüme ulaştırır.</Description>
+    
+    <!-- Versiyon bilgileri -->
+    <Version>0.0.1</Version>
+    <FileVersion>0.0.1</FileVersion>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <InformationalVersion>0.0.1-alpha</InformationalVersion>
+    
+    <!-- Metadata -->
+    <Copyright>Copyright © Furkan Tural 2025</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
