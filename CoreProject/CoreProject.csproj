@@ -14,10 +14,10 @@
     <Description>Bu uygulama Hackerrank bünyesinde yer alan meydan okumalarını konsol uygulaması şeklinde çözüme ulaştırır.</Description>
     
     <!-- Versiyon bilgileri -->
-    <Version>0.0.1</Version>
-    <FileVersion>0.0.1</FileVersion>
-    <AssemblyVersion>0.0.1</AssemblyVersion>
-    <InformationalVersion>0.0.1-alpha</InformationalVersion>
+    <Version>0.0.2</Version>
+    <FileVersion>0.0.2</FileVersion>
+    <AssemblyVersion>0.0.2</AssemblyVersion>
+    <InformationalVersion>0.0.2-alpha</InformationalVersion>
     
     <!-- Metadata -->
     <Copyright>Copyright © Furkan Tural 2025</Copyright>
